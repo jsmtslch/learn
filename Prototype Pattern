@@ -5,3 +5,4 @@ Prototype pattern is a creational design pattern. This means it handles the scen
 The questions that I currently have:
 1. I read in an article that one object is created from a class that is implementing prototype interface and after that all the objects are cloned from that object. Is this true? If yes, why?
 2. What is "client" in context of Prototype design pattern?
+

@@ -1,6 +1,7 @@
 Prototype pattern is a creational design pattern. This means it handles the scenarios where we are creating objects. There are couple of things that I got know during my inital learning:
 1. As the name itself is suggesting, this pattern will have a "Prototype" from where objects will be created. This prototype is an interface which has a virtual method: clone().
 2. Any class that implements this interface will implement the clone() accordingly.
+3. Why to use Prototype pattern you ask, well if object creation is expensive then cloning is better.
 
 The questions that I currently have:
 1. I read in an article that one object is created from a class that is implementing prototype interface and after that all the objects are cloned from that object. Is this true? If yes, why?

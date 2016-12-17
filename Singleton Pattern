@@ -1,0 +1,4 @@
+Understanding Singleton Pattern seemed quite easy. All we have to mke sure is: Only one object is created of the class and make sure there is public access to that object.
+Create a class with private constructor and give a method like getXXXX(). This getXXXX() method will create/give the object to the requesting object. the getXXXX() is actually doing lazy initialization on the Singleton object. If it is the first call for the object, this methos will create the object and give it.If not, then it will return the existing instance of the class. The client will get the object as: Singleton singleton = Singleton.getXXXX();
+There could be issues in multithreading scenarios.
+I did not see much encouragement in using this pattern. But always good to learn. :)

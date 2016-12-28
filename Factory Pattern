@@ -1,0 +1,6 @@
+This one is quite simple. Just to remember, "Factory" is a place where something is created depending upon demand.
+User(Client) is just telling the factory what to produce. What happens during the process is upto the factory to do.
+Factory is a class where where you can have method (interestingly, I liked the approach of making this method as static) which can accept some input (say a string). Now depending upon the input this method will decide which object to create.
+Now comes the part how this creation is happening.
+We will have an interface or abstract class. There will be concrete classes implementing this interface/ abstract class. For example, interface can be "Car" with couple of methods. The concrete classes can be "Mercedes", "BMW", "Ferrari". All these classes are implementing/extending "Car".
+Now when client says I need "BMW" to "CarFactory" method "makeCar", depending upon the input the method will create an object of the above concrete class and return. The thing to remember is that this method is actually returning "Car" and not any specific concrete class type because all the concrete classes are actually extending/implementing "Car".
